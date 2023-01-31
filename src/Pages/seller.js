@@ -1,3 +1,4 @@
+import './page.css'
 // import styles from'./pages.module.css'
 import React from 'react'
 import { useState } from "react";
@@ -119,7 +120,7 @@ function Seller(){
                     <h1>Enter Amount<span></span></h1>
                     <label class="tooltip" data-tip="Give your Product a name">
                         <span>Amount (Ether):</span>
-                        <input id="input" type="text" name="fname" placeholder="Eg. Artwork" required />
+                        <input id="input" type="text" name="fname" placeholder="1 ether" required />
                     </label>
                     <button class="button" onclick="Popup()">GO</button>
                     <span class="button" onClick={()=>{showAddAProduct('none')}}>Cancel</span>

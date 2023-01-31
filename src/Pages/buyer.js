@@ -1,4 +1,4 @@
-// import styles from'./pages.module.css'
+import './page.css'
 import React from 'react'
 import { useState } from "react";
 
