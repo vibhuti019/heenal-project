@@ -4,9 +4,7 @@ import { useState } from "react";
 
 function Seller(){
     const [addAProduct, showAddAProduct] = useState('none');
-    const [getDetails, showGetDetails] = useState('none');
-
-
+    
     return (
         <>
         <div class="Side-bar" >
@@ -103,7 +101,7 @@ function Seller(){
                                     <div class="card_content">
                                             <h2 class="card_heading">Item 1</h2>
                                             <p>I'm a card and I'm first.</p>
-                                            <a href="#" class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
+                                            <a href="#" class="card_button" onClick={()=>{showAddAProduct('')}}>Place your Bid</a>
                                     </div>
                                 </div>
                             </li>
@@ -118,40 +116,18 @@ function Seller(){
         <div class="carousal" style={{display: addAProduct}}>
             <div id="container">
                 <form id="left">
-                    <h1>Add A Product<span></span></h1>
-                    <label>
-                        <span>Product Type</span>
-                        <select>
-                            <option value="--" selected="selected">Select Type</option>
-                            <option>A</option>
-                            <option>B</option>
-                            <option>C</option>
-                        </select>
-                    </label>
-                    <label class="tooltip" data-tip="Select Audion Time">
-                        <span>Duration:</span>
-                        <select>
-                            <option value="--" selected="selected">Select Duration</option>
-                            <option>1 day</option>
-                            <option>2 days</option>
-                            <option>3 days</option>
-                            <option>4 days</option>
-                        </select>
-                    </label>
+                    <h1>Enter Amount<span></span></h1>
                     <label class="tooltip" data-tip="Give your Product a name">
-                        <span>Product Title:</span>
+                        <span>Amount (Ether):</span>
                         <input id="input" type="text" name="fname" placeholder="Eg. Artwork" required />
                     </label>
-                    <label class="tooltip" data-tip="What is it that you are Selling?">
-                        <span>Product Desc:</span>
-                        <input type="text" name="lname" placeholder="Eg. A awesome artwork" required />
-                    </label>
-                        <button class="button" onclick="Popup()">GO</button>
-                        <span class="button" onClick={()=>{showAddAProduct('none')}}>Cancel</span>
-                    
+                    <button class="button" onclick="Popup()">GO</button>
+                    <span class="button" onClick={()=>{showAddAProduct('none')}}>Cancel</span>
+                
                 </form>
             </div>
-        </div>       
+        </div>   
+              
 </>
 
     )

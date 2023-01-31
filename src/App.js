@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import ReactDOM from "react-dom/client";
 import Login from './Pages/login.js'
 import Buyer from './Pages/buyer.js'
 import Seller from './Pages/seller.js'
