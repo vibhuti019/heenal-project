@@ -109,7 +109,7 @@ function Buyer(){
                                 <div class="card">
                         
                                     <div class="card_image">
-                                            <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
+                                            <img alt='none' src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
                                     </div>
                         
                                     <div class="card_content">
@@ -124,13 +124,13 @@ function Buyer(){
                                 <div class="card">
                         
                                     <div class="card_image">
-                                            <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
+                                            <img alt='none' src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
                                     </div>
                         
                                     <div class="card_content">
                                             <h2 class="card_heading">Item 1</h2>
                                             <p>I'm a card and I'm first.</p>
-                                            <a href="#" class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
+                                            <a  class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
                                     </div>
                                 </div>
                             </li>
@@ -139,13 +139,13 @@ function Buyer(){
                                 <div class="card">
                         
                                     <div class="card_image">
-                                            <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
+                                            <img alt='none' src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
                                     </div>
                         
                                     <div class="card_content">
                                             <h2 class="card_heading">Item 1</h2>
                                             <p>I'm a card and I'm first.</p>
-                                            <a href="#" class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
+                                            <a class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
                                     </div>
                                 </div>
                             </li>
@@ -154,7 +154,7 @@ function Buyer(){
                                 <div class="card">
                         
                                     <div class="card_image">
-                                            <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
+                                            <img alt='none' src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
                                     </div>
                         
                                     <div class="card_content">

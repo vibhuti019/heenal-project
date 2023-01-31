@@ -6,9 +6,6 @@ function Login() {
 
     const [login, setLoginClass] = useState(`${styles.container}`);
 
-    function toggleClassName(){
-
-    }
     return (
         <>
 
