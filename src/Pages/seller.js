@@ -9,7 +9,7 @@ function Seller(){
     return (
         <>
         <div class="Side-bar" >
-          <div class="Box-logo">Auction NMIMS</div>
+          <div class="Box-logo">Seller Portal</div>
           <div class="Box-menu">
               <ul class="ul-menu">
                   <li class="li-menu Active-menu">
@@ -96,13 +96,13 @@ function Seller(){
                                 <div class="card">
                         
                                     <div class="card_image">
-                                            <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
+                                            <img alt='' src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" />
                                     </div>
                         
                                     <div class="card_content">
                                             <h2 class="card_heading">Item 1</h2>
                                             <p>I'm a card and I'm first.</p>
-                                            <a href="#" class="card_button" onClick={()=>{showAddAProduct('')}}>Place your Bid</a>
+                                            <span class="card_button" onClick={()=>{showAddAProduct('')}}>Place your Bid</span>
                                     </div>
                                 </div>
                             </li>

@@ -39,7 +39,7 @@ function Login() {
                     <label>
                         <input type="password" placeholder="Password"/>
                     </label>
-                    <a href="#">Forgot your password?</a>
+                    <span>Forgot your password?</span>
                     <button >Sign In</button>
                 </form>
             </div>

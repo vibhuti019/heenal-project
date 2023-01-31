@@ -10,7 +10,7 @@ function Buyer(){
     return (
         <>
         <div class="Side-bar" >
-          <div class="Box-logo">Auction NMIMS</div>
+          <div class="Box-logo">Buyer Portal</div>
           <div class="Box-menu">
               <ul class="ul-menu">
                   <li class="li-menu Active-menu">
@@ -115,7 +115,7 @@ function Buyer(){
                                     <div class="card_content">
                                             <h2 class="card_heading">Item 1</h2>
                                             <p>I'm a card and I'm first.</p>
-                                            <a href="#" class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
+                                            <span class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</span>
                                     </div>
                                 </div>
                             </li>
@@ -130,7 +130,7 @@ function Buyer(){
                                     <div class="card_content">
                                             <h2 class="card_heading">Item 1</h2>
                                             <p>I'm a card and I'm first.</p>
-                                            <a  class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
+                                            <span class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</span>
                                     </div>
                                 </div>
                             </li>
@@ -145,7 +145,7 @@ function Buyer(){
                                     <div class="card_content">
                                             <h2 class="card_heading">Item 1</h2>
                                             <p>I'm a card and I'm first.</p>
-                                            <a class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
+                                            <span class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</span>
                                     </div>
                                 </div>
                             </li>
@@ -160,7 +160,7 @@ function Buyer(){
                                     <div class="card_content">
                                             <h2 class="card_heading">Item 1</h2>
                                             <p>I'm a card and I'm first.</p>
-                                            <a href="#" class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</a>
+                                            <span class="card_button" onClick={()=>{showGetDetails('')}}>Get Bid Details</span>
                                     </div>
                                 </div>
                             </li>
